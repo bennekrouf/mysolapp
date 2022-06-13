@@ -1,14 +1,14 @@
 [features]
 seeds = false
 [programs.localnet]
-mysolapp = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+mysolapp = "5jFPiEbfu1uoo3Dszzf7sgz5VQmfsBzacz7nRzX4U1L"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
 cluster = "localnet"
-wallet = "/Users/mb/.config/solana/id.json"
+wallet = "/Users/mb/code/rust/solana/wallets/rahasak.json"
 
 [scripts]
 test = "yarn run mocha -t 1000000 tests/"
